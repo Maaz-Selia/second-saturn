@@ -13,5 +13,8 @@ export default defineConfig({
         tailwind({
             applyBaseStyles: false
         })
-    ]
+    ],
+    devToolbar: {
+        enabled: false
+      }
 });
